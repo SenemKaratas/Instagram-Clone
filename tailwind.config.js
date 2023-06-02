@@ -3,6 +3,12 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
+      backgroundImage: {
+        "logo-pattern":
+          "url(https://static.cdninstagram.com/images/instagram/xig/homepage/phones/home-phones-2x.png?__makehaste_cache_breaker=73SVAexZgBW)",
+        "logo-pattern1":
+          "url(https://www.instagram.com/images/instagram/xig/homepage/screenshots/screenshot1-2x.png?__d=www)",
+      },
       colors: {
         transparent: "transparent",
         current: "currentColor",

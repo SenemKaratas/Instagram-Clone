@@ -3,9 +3,14 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="container text-metal">
-      <p className="text-3xl font-bold underline">Hello world!</p>
-      <h1 className="text-xl">Deneme</h1>
+    <div className="h-full w-full flex items-center justify-center">
+      <div className="h-[581px] w-[468px]  bg-[length:468px_634px] bg-[top_left_-46px] bg-logo-pattern bg-slate-300 ">
+        <img
+          className="h-[538px] w-[250px]"
+          src="https://www.instagram.com/images/instagram/xig/homepage/screenshots/screenshot1-2x.png?__d=www"
+          alt="instagram Ekran Görüntüsü"
+        ></img>
+      </div>
     </div>
     // <div className="App">
     //   <header className="App-header">
